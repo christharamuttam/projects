@@ -1,0 +1,144 @@
+html {
+	font-family: sans-serif;
+	color: #272727;
+}
+
+body {
+    background: #ffffff; /*
+    background: -webkit-linear-gradient(#eee, #ce0c3d);
+    background: -o-linear-gradient(#eee, #ce0c3d);
+    background: -moz-linear-gradient(#eee, #ce0c3d);
+    background: linear-gradient(#eee, #ce0c3d);*/
+
+}
+
+a {
+	color: #ce0c3d;
+}
+
+a:hover {
+	color: #000;
+}
+
+.nav {
+}
+
+.nav ul {
+  	list-style: none;
+  	text-align: center;
+  	margin: 0;
+	background: #fffafa;
+ 	background: -webkit-linear-gradient(left, #fffafa, #ce0c3d);
+    background: -o-linear-gradient(right, #fffafa, #ce0c3d);
+    background: -moz-linear-gradient(right, #fffafa, #ce0c3d);
+    background: linear-gradient(to right, #fffafa, #ce0c3d);
+
+
+
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: -4px
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #ce0c3d;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+/*#nav ul{
+	background-color: #fffafa;
+	float: top;
+	display: inline;
+	width: 150px;
+    height: 75px;
+    margin: 10px;;
+	border-top: 1em solid #000;
+	border-right: 1em solid #000;
+	border-left: 1em solid #000;
+	border-bottom: 1em solid #000;
+	*/
+}
+
+.header {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*background-color: #f2f2f2;*/
+    /*padding: .4rem 0*/
+    }
+
+.header
+	h1 {
+	font-weight: 200;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 2px;
+    padding: .2rem 0 .4rem;
+
+}
+
+
+ul {
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	background-color: #fffafa;
+	/*text-align: justify;*/
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+.list
+	ul {
+	width: 600px;
+	margin: 0 auto;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+}
+
+p {
+	font-style: italic;
+	font-size: small;
+}
+
+#got {
+	text-decoration: line-through;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#got
+	img {
+/*		display: none;
+*/		visibility: hidden;
+	}
+
+.footer {
+	width: 650px;
+	margin: 0 auto;
+	font-size: x-small;
+	text-align: center;
+	/*border-top: 2px dotted #000;*/
+    padding-top: 2rem;
+    margin-bottom: 3rem
+}

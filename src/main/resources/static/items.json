@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"image": "product-images/bike-1.jpeg",
+		"title": "Orient Vita Pro 28\"",
+		"description": "desc1",
+		"category": "Event",
+		"otherInfo": "K203",
+		"date": "2024-06-26"
+	},
+	{
+		"id": 2,
+		"image": "product-images/bike-1.jpeg",
+		"title": "Orient Vita Pro 28\"",
+		"description": "desc1",
+		"category": "Event",
+		"otherInfo": "K203",
+		"date": "2024-06-26"
+	},
+	{
+		"id": 3,
+		"image": "product-images/bike-1.jpeg",
+		"title": "Orient Vita Pro 28\"",
+		"description": "desc1",
+		"category": "Event",
+		"otherInfo": "K203",
+		"date": "2024-06-26"
+	},
+	{
+		"id": 4,
+		"image": "product-images/bike-1.jpeg",
+		"title": "Orient Vita Pro 28\"",
+		"description": "desc1",
+		"category": "Event",
+		"otherInfo": "K203",
+		"date": "2024-06-26"
+	},
+	{
+		"id": 5,
+		"image": "product-images/bike-1.jpeg",
+		"title": "Orient Vita Pro 28\"",
+		"description": "desc1",
+		"category": "Event",
+		"otherInfo": "K203",
+		"date": "2024-06-26"
+	},
+	{
+		"id": 6,
+		"image": "product-images/bike-1.jpeg",
+		"title": "Orient Vita Pro 28\"",
+		"description": "desc1",
+		"category": "Event",
+		"otherInfo": "K203",
+		"date": "2024-06-26"
+	}
+]

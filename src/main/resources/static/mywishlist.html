@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Setting the pages character encoding -->
+  <meta charset="UTF-8">
+
+  <!-- The meta viewport will scale my content to any device width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to my stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <title>VisitScotland Website - My Wish List</title>
+  <h1 style="text-align:center"> Welcome to VisitScotland Website </h1>
+
+
+
+</head>
+<body>
+<table width="75%" height="100%" style="text-align:right">
+  <tr><td>
+<div> <p id="dvid"></p></div>
+    <div></div><br><br>
+    <div><p style="text-align:center">My Wish List</p></div>
+    <div></div>
+    <div><p style="text-align:right"><a href="/list.html" style="border:thin solid #d4d4d4">View Items List</a></p></div>
+  </td></tr>
+</table>
+
+
+
+<table id="tableID">
+  <tr><td colspan="6">
+  <form>
+    <label>Choose a Category</label>
+    <select class="item">
+      <option>All</option>
+      <option>Accommodation</option>
+      <option>Event</option>
+      <option>Attractions</option>
+    </select>
+  </form>
+    <div><p style="text-align:right"><a href="#" style="border:thin solid #d4d4d4" onClick="RemoveMe()">Remove Wish List</a></p></div>
+  </td></tr>
+  <thead>
+  <tr>
+    <th>Item</th>
+    <th>Item title</th>
+    <th>Description</th>
+    <th>Category</th>
+    <th>Other Info.</th>
+    <th>Event Date</th>
+  </tr>
+  </thead>
+  <tbody id="data-output1">
+  <!-- Prodcuts from gavascript file in here. -->
+  </tbody>
+</table>
+
+<script src="wishlistscript.js"></script> <!-- Link to the javascript file -->
+</body>
+</html>
