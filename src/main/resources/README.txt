@@ -2,12 +2,24 @@
 2. User details for application login
 application URL : http://localhost:8080/login.html
   Sample user/pwd details
-   1. myusername/mypassword
-   2. myusername1/mypassword1
-   3. myusername2/mypassword2
-   4. myusername3/mypassword3
+   1. myusername@gmail.com/mypassword
+   2. myusername1@gmail.com/mypassword1
+   3. myusername2@gmail.com/mypassword2
+   4. myusername3@gmail.com/mypassword3
 
-3. Create Items/Products
+
+   API : http://localhost:8080/user/createUser
+   {
+   "email":"myusername@gmail.com",
+   "password":"password"
+   }
+
+   Verify User
+   http://localhost:8080/user/login/myusername
+
+3. Source Code location on git : https://github.com/christharamuttam/projects/tree/master
+
+4. Create Items/Products
 API URL : http://localhost:8080/Item/create
 {
 "title":"Kings Park Hotel",
